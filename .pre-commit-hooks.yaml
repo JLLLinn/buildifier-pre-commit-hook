@@ -1,0 +1,5 @@
+- id: buildifier
+  name: buildifier
+  description: Format bazel BUILD files.
+  language: system
+  entry: bazel run //:buildifier

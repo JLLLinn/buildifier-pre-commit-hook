@@ -1,6 +1,6 @@
 - id: buildifier
   name: 'Bazel Buildifier'
   description: 'Format bazel BUILD files.'
-  language: 'script'
+  language: 'system'
   entry: 'buildifier -r ./'
   pass_filenames: false

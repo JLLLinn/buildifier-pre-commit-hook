@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec buildifier -r ./
+exec buildifier -r ./ "$@"

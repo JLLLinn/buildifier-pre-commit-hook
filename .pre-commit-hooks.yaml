@@ -1,5 +1,5 @@
 - id: buildifier
   name: Bazel Buildifier
   description: Format bazel BUILD files.
-  language: system
+  language: script
   entry: run.sh

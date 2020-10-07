@@ -2,5 +2,5 @@
   name: 'Bazel Buildifier'
   description: 'Format bazel BUILD files.'
   language: 'script'
-  entry: 'run.sh'
+  entry: 'buildifier -r ./'
   pass_filenames: false

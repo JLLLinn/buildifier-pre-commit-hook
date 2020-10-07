@@ -3,3 +3,4 @@
   description: 'Format bazel BUILD files.'
   language: 'script'
   entry: 'run.sh'
+  pass_filenames: false

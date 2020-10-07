@@ -2,4 +2,4 @@
   name: Bazel Buildifier
   description: Format bazel BUILD files.
   language: system
-  entry: ./buildifier -r ./
+  entry: buildifier -r ./

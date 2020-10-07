@@ -2,4 +2,4 @@
   name: Bazel Buildifier
   description: Format bazel BUILD files.
   language: system
-  entry: buildifier $(find . -type f \( -iname BUILD -or -iname BUILD.bazel -or -iname WORKSPACE \))
+  entry: run.sh

@@ -1,5 +1,6 @@
 - id: buildifier
   name: 'Bazel Buildifier'
+  files: 'BUILD.bazel|BUILD|WORKSPACE'
   description: 'Format bazel BUILD files.'
   language: 'system'
   entry: 'buildifier -r ./'
